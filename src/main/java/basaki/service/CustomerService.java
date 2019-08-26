@@ -5,13 +5,11 @@ import java.util.List;
 import basaki.data.Customer;
 
 /**
- * 
  * <tt>CustomerService</tt> is an interface exposing the operations that can be
  * performed on a customer data model.
  * <p/>
- * 
+ *
  * @author Indra Basak
- * 
  */
 public interface CustomerService {
 

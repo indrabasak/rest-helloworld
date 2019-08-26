@@ -6,12 +6,10 @@ import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 
 /**
- * 
  * <tt>Customer</tt> is a data model representing a customer entity.
  * <p/>
- * 
+ *
  * @author Indra Basak
- * 
  */
 @XmlRootElement
 @XmlAccessorType(XmlAccessType.NONE)
@@ -22,44 +20,44 @@ public class Customer {
     private Address address;
 
     public int getId() {
-	return id;
+        return id;
     }
 
     @XmlElement
     public void setId(int id) {
-	this.id = id;
+        this.id = id;
     }
 
     public String getFirstName() {
-	return firstName;
+        return firstName;
     }
 
     @XmlElement
     public void setFirstName(String firstName) {
-	this.firstName = firstName;
+        this.firstName = firstName;
     }
 
     public String getLastName() {
-	return lastName;
+        return lastName;
     }
 
     @XmlElement
     public void setLastName(String lastName) {
-	this.lastName = lastName;
+        this.lastName = lastName;
     }
 
     public Address getAddress() {
-	return address;
+        return address;
     }
 
     @XmlElement
     public void setAddress(Address address) {
-	this.address = address;
+        this.address = address;
     }
 
     @Override
     public String toString() {
-	return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address=" + address
-		+ "]";
+        return "Customer [id=" + id + ", firstName=" + firstName + ", lastName=" + lastName + ", address=" + address
+                + "]";
     }
 }
